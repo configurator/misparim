@@ -1,0 +1,22 @@
+{
+	"name": "misparim",
+	"main": "misparim.js",
+	"version": "1.0.0",
+	"authors": [
+		"Dor Kleiman <configurator@gmail.com>"
+	],
+	"description": "Converts numbers to their Hebrew string representation",
+	"keywords": [
+		"numbers",
+		"hebrew"
+	],
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/configurator/misparim"
+}
