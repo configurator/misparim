@@ -109,7 +109,7 @@
 		}
 
 		var parts = [];
-		if (number > billion) {
+		if (number >= billion) {
 			parts.push([
 				misparSection(
 					Math.floor(number / billion),
@@ -120,7 +120,7 @@
 			]);
 			number = number % billion;
 		}
-		if (number > million) {
+		if (number >= million) {
 			parts.push([
 				misparSection(
 					Math.floor(number / million),
@@ -131,7 +131,7 @@
 			]);
 			number = number % million;
 		}
-		if (number > tenThousand) {
+		if (number >= tenThousand) {
 			parts.push([
 				misparSection(
 					Math.floor(number / thousand),
